@@ -1,0 +1,25 @@
+body{
+    background-color: #000000;
+
+}
+.header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.headercontent{
+    display: flex;
+    gap: 30px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.inputarea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
