@@ -6,8 +6,8 @@ import mysql.connector
 from flask import Flask, render_template
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
-app = Flask(__name__, template_folder=str(ROOT / "html"))
+
+app = Flask(__name__)
 
 # Caminho da pasta v01
 
